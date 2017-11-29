@@ -16,3 +16,5 @@ In the `app.js` file:
 * Write a function called `makeMove` that takes a square element and an index, and update the square at that index with the name of the current player.
 * Deploy your app!
 * Paste link to deployed app here:
+
+https://tic-tac-toe-3bb7e.firebaseapp.com/
