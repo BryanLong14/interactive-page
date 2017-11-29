@@ -1,13 +1,18 @@
+var didWin = false
+
 function play(square) {
   var index = square.id
   makeMove(square, index)
-  var didWin = gameOver()
+  didWin = gameOver()
   didWin ? endGame() : switchPlayer()
 }
 
 function addClickListener(element){
   element.addEventListener('click', function(){
     play(element)
+    if (didWin) {
+      this.classList.add('winning-square')
+    }
   })
 }
 
@@ -17,7 +22,7 @@ function switchPlayer() {
 }
 
 function endGame(endFormation) {
-  var endMessage = 'Game Over. Player ' + currentPlayer + ' Wins'
+  var endMessage = 'Game Over! Player ' + currentPlayer + ' Wins'
   changeMessage()
   displayMessage(endMessage)
 }
