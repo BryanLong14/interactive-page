@@ -1,3 +1,9 @@
+
+https://www.screencast.com/t/yX4XP4DHygT
+
+
+
+
 # Pixel Art Maker
 
 In this exercise, you'll create your own pixel art maker which will allow a user to choose colors from a palette and then paint pixel art. The interface is completely up to you, but it could look something like this.
@@ -12,8 +18,8 @@ More specifically, your pixel art maker should allow a user to do the following.
 1. Repeat step 2.
 
 To accomplish this, you will have to:
-
-* Write a function called `createCanvas` that populates the page with at least a 3x3 canvas made up of white, square `div` tags with a border
+<!--
+* Write a function called `createCanvas` that populates the page with at least a 3x3 canvas made up of white, square `div` tags with a border -->
 * Write a function called  `createPalette` that creates a palette of at least two colors (e.g. red and blue) below the canvas using more `div` tags
 * Add an event listener to the palette `div` tags so when clicked the brush color is saved
 * Add an event listener to each canvas `div` so when clicked the background changes to the color selected in the palette
