@@ -1,15 +1,11 @@
 
 
-<video controls autoplay>
-  <source src="https://www.screencast.com/t/yX4XP4DHygT">
-  Your browser does not support the video tag.
-</video>
+#Please watch the tutorial before proceeding:
+#https://www.youtube.com/embed/VkF0IZ0Lgws
 
-https://www.screencast.com/t/yX4XP4DHygT
-
+#Happy Trees Live Hosted URL: https://paint-some-happy-trees.firebaseapp.com/
 
 # Pixel Art Maker
-
 In this exercise, you'll create your own pixel art maker which will allow a user to choose colors from a palette and then paint pixel art. The interface is completely up to you, but it could look something like this.
 
 ![Example of Pixel Art Maker](screenshots/pixel-art-maker-alt.png)
